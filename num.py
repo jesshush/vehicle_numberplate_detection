@@ -4,7 +4,7 @@ import pytesseract
 import tkinter as tk
 from tkinter import filedialog
 
-pytesseract.pytesseract.tesseract_cmd = r''
+pytesseract.pytesseract.tesseract_cmd = r'/Users/jesicaanniebijju/Downloads/archive.zip'
 
 cascade = cv.CascadeClassifier("haarcascade_russian_plate_number.xml")
 states = {
